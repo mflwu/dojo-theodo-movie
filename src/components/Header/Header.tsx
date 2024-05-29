@@ -8,14 +8,14 @@ export const Header = () => {
       <Link to={`/`} style={{ textDecoration: "none" }}>
         <div className={styles.logo} style={{ color: "white" }}>
           <Clapperboard size={32} />
-          <h2>Cine-Project</h2>
+          <h2>CrunchyRoll</h2>
         </div>
       </Link>
       <Link
         to={`/favorites`}
         style={{ textDecoration: "none", color: "white" }}
       >
-        <h3>Mes films</h3>
+        <h3>Mes Animes</h3>
       </Link>
 
       <div className={styles.searchBar}>
